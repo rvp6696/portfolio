@@ -358,9 +358,10 @@ section {
     transform: scale(1.1);
 }
 
+
 #experience div label {
     padding: 5px;
-    min-width: 340px;
+    min-width: 300px;
     border-radius: 8px;
     transition: 0.5s;
 }
@@ -643,6 +644,10 @@ footer {
         display: flex;
     }
 
+    .tab-contents label {
+        width: 90vw;
+    }
+
     .about-texts {
         padding: 5px;
     }
@@ -720,6 +725,23 @@ footer {
 
     .contactme-info {
         padding: 0;
+    }
+
+    #experience div label {
+        width: 36px;
+        padding: 0px;
+    }
+
+    #experience div label small {
+        font-size: 12px;
+    }
+
+    #experience div label h6 {
+        font-size: 11px;
+    }
+
+    #experience div label p {
+        font-size: 10px;
     }
 
 }
