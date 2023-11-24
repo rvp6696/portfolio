@@ -706,6 +706,22 @@ footer {
         width: 85%;
     }
 
+    .popup-layer h3 {
+        font-size: 16px;
+    }
+
+    .popup-layer p {
+        font-size: 13px;
+    }
+
+    .popup-layer h6 {
+        font-size: 14px;
+    }
+
+    .contactme-info {
+        padding: 0;
+    }
+
 }
 
 /* Small Devices*/
