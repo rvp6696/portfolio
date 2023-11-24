@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio(Rohith-Patil)</title>
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="cotainer">
+        <!-- HomePage Section -->
+        <div class="row">
+            <section>
+                <div class="col-lg-12 header">
+                    <nav class="navbar navbar-expand-lg navbar-box">
+                        <div class="container">
+                            <a class="navbar-brand " href="#"><span class="pagelogo"> &lt R<span class="text-white">P/
+                                        &gt</span></a>
+                            <div>
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center" id="navbar-links">
+                                    <li class="nav-item navbar-links navsidebar">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+
+                                    <li class="nav-item navbar-links navsidebar">
+                                        <a class="nav-link active" aria-current="page" href="#myprojects">Portfolio</a>
+                                    </li>
+
+                                    <li class="nav-item navbar-links navsidebar">
+                                        <a class="nav-link active" aria-current="page" href="#aboutme-page">Skills</a>
+                                    </li>
+
+                                    <li class="nav-item navbar-links navsidebar">
+                                        <a class="nav-link active" aria-current="page" href="#aboutme-page">About</a>
+                                    </li>
+
+                                    <li class="nav-item navbar-links navsidebar">
+                                        <a class="nav-link active" aria-current="page" href="#contact-page">Contact</a>
+                                    </li>
+
+                                    <li class="nav-item navbar-links showsidebar" onclick="showSidebar()">
+                                        <a class="nav-link active" aria-current="page" href="#"><i
+                                                class="fa-solid fa-bars"></i></a>
+                                    </li>
+                                </ul>
+
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center" id="sidebar-links">
+
+                                    <li class="nav-item navbar-links pb-5" onclick="hideSidebar()">
+                                        <a class="nav-link active" aria-current="page" href="#/"><i
+                                                class="fa-solid fa-xmark fa-2x"></i></a>
+                                    </li>
+
+                                    <li class="nav-item navbar-links">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+
+                                    <li class="nav-item navbar-links">
+                                        <a class="nav-link active" aria-current="page" href="#myprojects">Portfolio</a>
+                                    </li>
+
+                                    <li class="nav-item navbar-links">
+                                        <a class="nav-link active" aria-current="page" href="#aboutme-page">Skills</a>
+                                    </li>
+
+                                    <li class="nav-item navbar-links">
+                                        <a class="nav-link active" aria-current="page" href="#aboutme-page">About</a>
+                                    </li>
+
+                                    <li class="nav-item navbar-links">
+                                        <a class="nav-link active" aria-current="page" href="#contact-page">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <div class="container-data col-lg-10">
+                        <div class="col-lg-2"></div>
+                        <div class="home-content col-lg-6">
+                            <h5> Hello I,m a <span class="input">Frontend developer</span> </h5>
+                            <h1> Rohith Patil </h1>
+                            <p>
+                                A passionate Frontend Developer on a mission to craft clean and responsive user
+                                interfaces that bring ideas to life.
+                            </p>
+
+                            <div class="home-sci">
+                                <a href="https://github.com/rvp6696" target="_new"><i
+                                        class="fa-brands fa-github"></i></a>
+                                <a href="https:/linkedin.com/in/rohithpatil96" target="_new"><i
+                                        class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://twitter.com/alpha_geekster" target="_new"><i
+                                        class="fa-brands fa-square-x-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a> <br />
+
+                                <div class="btn-group">
+                                    <a href="Rohith-Patil_Resume.pdf" download class="btn-box"> Download CV</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hero-pic col-lg-6 text-center">
+                            <img src="/images/profilepic.png" alt="profile-picture">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- About Me Section -->
+        <div class="row">
+            <section class="container" id="aboutme-page">
+                <div class="col-lg-12 header">
+
+                    <div class="aboutme-container">
+                        <div class="col-lg-4 aboutme-pic text-center">
+                            <img src="./images/sidepic.jpg" alt="profile pic" />
+                        </div>
+
+                        <div class="col-lg-8 about-texts">
+                            <h2 class="sub-title"> About <span class="aboutme-text">Me</span> </h2>
+
+                            <p class="about-info">Hello, world! I'm Rohith Patil, a Front-End Developer with an
+                                innovative viewpoint and a strong desire to make the web a better place. After exploring
+                                the broad and ever-changing world of Information Technology, I discovered my true
+                                passion at the intersection of technology and design. I'm here to bridge the gap between
+                                creativity and code, with a background that's as diverse as it is imaginative. My
+                                journey has been a fascinating blend of learning, adjusting, and reimagining what's
+                                possible. I'm a naturally collaborative person that thrives on teamwork and enjoys
+                                taking on new challenges. Let's connect, learn, and create a web that's not only
+                                functional but also a true work of art.
+                            </p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="getaboutme('skills')">Skills</p>
+                                <p class="tab-links" onclick="getaboutme('experience')">Work Experience</p>
+                                <p class="tab-links" onclick="getaboutme('education')">Education</p>
+                            </div>
+                            <!-- Skills Card one-->
+                            <div class="tab-contents active-tab col-lg-12" id="skills">
+                                <div class="card skill-card col-lg-5">
+                                    <div class="card-header" id="skills-header">
+                                        <h4 class="text-center"> Tech Stack </h4>
+                                    </div>
+
+                                    <div class="card-body" id="skills-box">
+                                        <p><i class="fa-brands fa-html5 htmllogo"></i> <span>HTML</span></p>
+                                        <p><i class="fa-brands fa-css3-alt text-primary"></i> <span>CSS</span></p>
+                                        <p><i class="fa-brands fa-bootstrap bootstraplogo"></i> <span>Bootstrap</span>
+                                        </p>
+                                        <p><i class="fa-brands fa-js jslogo"></i> <span>JavaScript</span>
+                                        </p>
+                                        <p><i class="fa-brands fa-react reactlogo"></i> <span>React</span></p>
+                                        <p><i class="fa-brands fa-git-alt gitlogo"></i> <span>Git/GitHub</span>
+                                        </p>
+                                        <p><i class="fa-solid fa-laptop-code reslogo"></i> <span>Responsive Web
+                                                Design</span></p>
+                                    </div>
+                                </div>
+                                <div class="card skill-card col-lg-5">
+                                    <div class="card-header" id="skills-header">
+                                        <h4 class="text-center"> Professional Skills </h4>
+                                    </div>
+
+                                    <div class="card-body" id="skills-box">
+                                        <p><i class="fa-solid fa-circle-check text-success"></i> <span>Creativity</span>
+                                        </p>
+                                        <p><i class="fa-solid fa-circle-check text-success"></i>
+                                            <span>Communication</span>
+                                        </p>
+                                        <p><i class="fa-solid fa-circle-check text-success"></i> <span>Quick
+                                                Learner</span></p>
+                                        <p><i class="fa-solid fa-circle-check text-success"></i> <span>Teamwork</span>
+                                        </p>
+                                        <p><i class="fa-solid fa-circle-check text-success"></i> <span>Time
+                                                management</span></p>
+                                        <p><i class="fa-solid fa-circle-check text-success"></i> <span>
+                                                Problem-solving</span></p>
+                                        <p><i class="fa-solid fa-circle-check text-success"></i> <span>Work Ethic</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Experience Card Two-->
+                            <div class="tab-contents col-lg-12" id="experience">
+                                <div>
+                                    <label>
+                                        <small> June(2023) - Nov(2023), Bengaluru </small>
+                                        <h6 class="text-light mt-2"> Cybotrix Technologies </h6>
+                                        <p class="text-light"> Internship in Web
+                                            Development</p>
+                                    </label><br />
+
+                                    <label>
+                                        <small> Nov(2022) - Feb(2023), Bengaluru </small>
+                                        <h6 class="text-light mt-2"> Alshaya Outsourcing Company India Pvt Ltd</h6>
+                                        <p class="text-light"> Technical Support Engineer</p>
+                                    </label><br />
+
+                                    <label>
+                                        <small> Jan(2020) - Oct(2022), Bengaluru </small>
+                                        <h6 class="text-light mt-2"> Atos Global IT Solutions and Services</h6>
+                                        <p class="text-light"> Associate Consultant</p>
+                                    </label>
+                                </div>
+
+                            </div>
+                            <!-- Education Card Three-->
+
+                            <div class="tab-contents col-lg-12" id="education">
+                                <div>
+                                    <small> 2019 </small>
+                                    <h5> Bachelor of Engineering </h5>
+                                    <h6 class="text-light"> M S Ramaiah Institute of Technology</h6>
+                                    <p class="text-light"> Electronics and Communication Engineering (ECE)</p>
+                                </div>
+
+                                <div>
+                                    <small> 2016 </small>
+                                    <h5> Diploma </h5>
+                                    <h6 class="text-light"> Maratha Mandal Polytechnic </h6>
+                                    <p class="text-light"> Electronics and Communication (ECE)</p>
+                                </div>
+
+                                <div>
+                                    <small> 2012 </small>
+                                    <h5> Secondary School (SSC) </h5>
+                                    <h6 class="text-light"> Love Dale Central School</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--Projects Section-->
+
+        <div class="row">
+            <section class="container" id="myprojects">
+                <div class="col-lg-12 header text-center">
+                    <h2 class="sub-title text-center mt-2" id="projects-head"> My <span
+                            class="aboutme-text">Projects</span> </h2>
+
+                    <div class="container work">
+                        <div class="project">
+                            <img src="./images/tickets.png" />
+                            <div class="layer">
+                                <h3>Ticket Management System</h3>
+                                <label>
+                                    <a><i class="fa-solid fa-circle-question text-white" onclick="popupmsg()"></i></a>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div id="popup">
+                            <div class="popup-layer">
+                                <h3>Ticket Management System</h3>
+                                <p>
+                                    This is a web application designed to streamline and enhance the process of handling
+                                    and resolving support tickets. It is built with a focus on user-friendly interfaces
+                                    and efficient ticket tracking. Each ticket contains relevant information pertaining
+                                    to an issue, such as the customer’s name, contact information, the nature of the
+                                    problem, and other required details. Moreover, admins or leads can access all the
+                                    ticket information to view team performance and monitor the service experience.
+                                    <br /> <br />
+
+                                    The Ticket Management System optimizes support operations, leading to improved
+                                    response times, enhanced customer satisfaction, and streamlined internal processes.
+                                </p>
+                                <h6>Technologies Used: HTML, CSS, Bootstrap, JavaScript (React.js)</h6>
+                                <a class="text-end"><i class="fa-solid fa-circle-xmark fa-2x text-danger mt-4"
+                                        onclick="popupmsg()"> </i></a>
+                            </div>
+                        </div>
+
+
+                        <div class="project">
+                            <img src="./images/leadsone.png" />
+                            <div class="layer">
+                                <h3>Lead Management System</h3>
+                                <label>
+                                    <a><i class="fa-solid fa-circle-question text-white" onclick="popupmsg2()"></i></a>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div id="popup2">
+                            <div class="popup-layer">
+                                <h3>Lead Management System</h3>
+                                <p>A Lead Management System (LMS) is a comprehensive software solution designed to
+                                    streamline and optimize the process of capturing, tracking, and managing potential
+                                    customers or leads throughout the sales lifecycle. This system plays a crucial role
+                                    in enhancing efficiency, and it empowers businesses to make data-driven decisions
+                                    and maximize the efficiency of their sales and marketing efforts. <br /> <br />
+
+                                    My role primarily involved working on the frontend aspects of the system, where I
+                                    focused on developing user interfaces that were intuitive, responsive, and
+                                    user-friendly. While my contributions were centered around foundational concepts, I
+                                    played a crucial role in creating a seamless and visually appealing experience for
+                                    end-users.
+                                </p>
+                                <h6>Technologies Used: HTML, CSS, Bootstrap, JavaScript (React.js)</h6>
+                                <a class="text-end"><i class="fa-solid fa-circle-xmark fa-2x text-danger mt-4"
+                                        onclick="popupmsg2()"> </i></a>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <img src="./images/wtwo.jpg" />
+                            <div class="layer">
+                                <h3>Weather Application</h3>
+                                <label>
+                                    <a><i class="fa-solid fa-circle-question text-white" onclick="popupmsg3()"></i></a>
+                                    <a href="https://rvp6696.github.io/weatherapp/" target="_new"><i
+                                            class="fa-solid fa-globe ms-2"></i></a>
+
+                                    <a href="https://github.com/rvp6696/weatherapp" target="_new"><i
+                                            class="fa-brands fa-github ms-2"></i></a>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div id="popup3">
+                            <div class="popup-layer">
+                                <h3>WeCast : Weather Application</h3>
+                                <p>WeCast, a simple and user-friendly weather web application that provides you with
+                                    real-time weather information for various cities. With WeCast, you can easily check
+                                    the current weather conditions for your desired location. Whether you
+                                    are planning a trip or just curious about the weather in different cities, WeCast
+                                    has got you covered.</p>
+                                <h6>Technologies Used: HTML, CSS, Bootstrap, JavaScript </h6>
+                                <a class="text-end"><i class="fa-solid fa-circle-xmark fa-2x text-danger mt-4"
+                                        onclick="popupmsg3()"> </i></a>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <img src="./images/taskimg.jpg" />
+                            <div class="layer">
+                                <h3>Task Manager</h3>
+                                <label>
+                                    <a><i class="fa-solid fa-circle-question text-white" onclick="popupmsg4()"></i></a>
+                                    <a href="https://rvp6696.github.io/Task-Manager" target="_new"><i
+                                            class="fa-solid fa-globe ms-2"></i></a>
+
+                                    <a href="https://github.com/rvp6696/Task-Manager" target="_new"><i
+                                            class="fa-brands fa-github ms-2"></i></a>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div id="popup4">
+                            <div class="popup-layer">
+                                <h3>Task Manager</h3>
+                                <p>Task Manager, a seamlessly designed web application crafted for optimal task
+                                    organization and productivity enhancement. This user-friendly platform empowers
+                                    users to effortlessly create new tasks, offering a comprehensive way of
+                                    customization options including title, due date, due time, priority, category, and
+                                    task specifics. The application's smooth integration with a robust backend JSON API
+                                    ensures swift and efficient data management. <br /> <br />
+
+                                    Upon accessing the "All Tasks" page, users are welcomed by a meticulously organized
+                                    table on the left, presenting a clear overview of tasks. Facilitating user
+                                    convenience, radio buttons enable easy categorization based on task status. On the
+                                    right side, a detailed view of individual tasks unfolds, providing users with the
+                                    flexibility to directly edit, delete, and update status details. Task Manager's
+                                    intuitive interface transforms task management into a seamless and enjoyable
+                                    experience, making productivity a breeze.</p>
+                                <h6>Technologies Used: HTML, CSS, Bootstrap, JavaScript (React.js) </h6>
+                                <a class="text-end"><i class="fa-solid fa-circle-xmark fa-2x text-danger mt-4"
+                                        onclick="popupmsg4()"> </i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--Contact Section-->
+
+        <div class="row">
+            <section id="contact-page">
+                <div class="header-contactpage col-lg-12">
+                    <div class="contactme-container container">
+                        <div class="col-lg-5 contactme-info">
+                            <div class="contactme-left">
+                                <h2 class="sub-title text-center mt-2"> Contact <span class="aboutme-text">Me</span>
+                                </h2>
+
+                                <p class="text-white contactme-msg">
+                                    Let's connect and collaborate! Feel free to reach out for discussions, projects, or
+                                    just to share a coding joke.
+                                </p>
+
+                                <h3> <i class="fa-solid fa-paper-plane me-3"></i> rvp6696@gmail.com </h3>
+                                <h3> <i class="fa-solid fa-phone-volume me-3"></i> +91 8792521576 </h3>
+                            </div>
+
+                            <div class="contact-icons">
+                                <a href="https://github.com/rvp6696" target="_new"><i
+                                        class="fa-brands fa-github contact-icons"></i></a>
+                                <a href="https:/linkedin.com/in/rohithpatil96" target="_new"><i
+                                        class="fa-brands fa-linkedin-in contact-icons"></i></a>
+                                <a href="https://twitter.com/alpha_geekster" target="_new"><i
+                                        class="fa-brands fa-x-twitter contact-icons"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram contact-icons"></i></a> <br />
+                            </div>
+                            <div class="btn-group">
+                                <a href="Rohith-Patil_Resume.pdf" download class="btn-box" id="contactcv-btn"> Download
+                                    CV</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-7">
+                            <form name="contact-formdata" class="contactme-inputs" method="post" action="">
+                                <input type="text" name="Name" placeholder="Enter Your Name"
+                                    class="form-control-lg input-fields" required />
+                                <input type="email" name="Email" placeholder="Enter Your Email"
+                                    class="form-control-lg input-fields" required />
+                                <textarea placeholder="Enter Your Message..." name="Message" maxlength="500"
+                                    class="form-control-lg input-fields" required></textarea>
+                                <div class="btn-group mx-auto">
+                                    <button class="btn-box pe-5 ps-5" value="Submit" type="submit"> Submit </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container text-center">
+            <p>Created By Mr. Rohith Patil | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"
+        integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+        integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
