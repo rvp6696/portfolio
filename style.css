@@ -308,10 +308,12 @@ section {
     background-color: #11C2CF;
 }
 
-#skills-header h4 {
+#skills-header p {
     color: #1e1e1e;
     font-family: 'Zilla Slab', serif;
     font-weight: bold;
+    text-align: center;
+    font-size: 26px;
 }
 
 #skills-box {

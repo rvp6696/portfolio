@@ -215,7 +215,7 @@ gsap.from(".contactme-inputs ", {
         scrub: 5
     },
     opacity: 0,
-    y: 800,
+    y: 500,
     duration: 1,
     delay: 0.5,
     ease: "expo"
