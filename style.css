@@ -608,12 +608,12 @@ footer {
     }
 
     .home-content {
-        padding: 0px 25px;
+        padding: 0px;
         text-align: center;
     }
 
     .home-content h5 {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .home-content h5 span {
