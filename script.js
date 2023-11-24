@@ -201,7 +201,7 @@ gsap.from("#contactcv-btn", {
         scrub: 5
     },
     opacity: 0,
-    x: 800,
+    y: -800,
     duration: 1,
     ease: "expo"
 })
@@ -215,7 +215,7 @@ gsap.from(".contactme-inputs ", {
         scrub: 5
     },
     opacity: 0,
-    x: 800,
+    y: 800,
     duration: 1,
     delay: 0.5,
     ease: "expo"
